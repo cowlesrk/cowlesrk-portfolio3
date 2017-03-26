@@ -42,6 +42,7 @@ ul {
 }
 
 
+
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -124,10 +125,6 @@ ul {
 
 }
 
-.skills {
-	display: flex;
-}
-
 
 /* ---- Banner ---- */
 
@@ -159,6 +156,24 @@ ul {
 .profile {
 	border-radius: 50%;
 	max-width: 70%;
+}
+
+/* ---- Skills ---- */
+
+.circles {
+	margin: 0 auto;
+	text-align: center;
+}
+
+figure {
+	display: inline-flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+figcaption {
+	clear: both;
+	flex: 1;
 }
 
 /* ---- Footer ---- */
