@@ -206,6 +206,9 @@ button {
 	max-width: 85%;
 }
 
+
+/* ---- Portfolio ---- */
+
 figure img {
 	display: inline-block;
 	float: left;
@@ -216,24 +219,20 @@ figure {
 	overflow: auto;
 }
 
-figcaption {
-/*	float: left;*/
-}
-
-/* ---- Portfolio ---- */
-
 .portfolio {
-	max-width: 100%;
+	max-width: 80%;
+	margin: 0 auto;
 }
 
 
 .portfolio-title {
-	margin: 1em 0;
+	margin: 2em 0;
 	color: #95E1D3;
 }
 
 .project-name {
 	text-align: left;
+	padding: .5em 0;
 }
 
 /* ---- Footer ---- */
