@@ -17,6 +17,7 @@ body {
 p {
 	font-size: .95em;
 	margin-bottom: 1.5em;
+	margin-top: .5em;
 }
 
 a { 
@@ -185,6 +186,17 @@ button {
 
 .skills {
 	padding: 3em 0;
+	background-color: #95E1D3;
+	border-bottom: 5px solid #EAFFD0;
+}
+
+.skills-title {
+	color: white;
+}
+
+.skills p {
+	margin: 0 3em;
+	text-align: center;
 }
 
 .circles {
@@ -194,25 +206,32 @@ button {
 	max-width: 85%;
 }
 
+figure img {
+	display: inline-block;
+	float: left;
+	margin-right: 3em;
+}
+
 figure {
-	display: inline-flex;
-	justify-content: space-between;
-	flex-direction: row;
+	overflow: auto;
 }
 
 figcaption {
-	clear: both;
-	flex: 1;
+/*	float: left;*/
 }
 
 /* ---- Portfolio ---- */
 
-.portfolio > h2, h3 {
+
+
+.portfolio-title {
+	margin: 1em 0;
 	color: #95E1D3;
-	padding: .5em 10;
-	text-align: center;
 }
 
+.project-name {
+	text-align: left;
+}
 
 /* ---- Footer ---- */
 
