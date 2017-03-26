@@ -95,6 +95,16 @@ ul {
 
 /* ---- Layout Containers ---- */
 
+.body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main-content {
+	flex: 1;
+}
+
 .header-container {
 	padding-left: 0;
 	padding-right: .5em;
@@ -198,11 +208,11 @@ ul {
 	}
 
 	.about {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+	    display: flex;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	    justify-content: center;
+	    align-items: center;
   
 	}
 
