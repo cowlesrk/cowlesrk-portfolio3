@@ -111,16 +111,21 @@ ul {
 	padding-bottom: 0;
 }
 
+
+.main-header {
+	background: #95E1D3;
+	border-bottom: 5px solid #EAFFD0;
+	text-align: center;
+}
+
 .about {
 	padding: 3em 5em;
 	background-color: white;
 
 }
 
-.main-header {
-	background: #95E1D3;
-	border-bottom: 5px solid #EAFFD0;
-	text-align: center;
+.skills {
+	display: flex;
 }
 
 
