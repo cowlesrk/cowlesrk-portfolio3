@@ -195,8 +195,8 @@ button {
 }
 
 .skills p {
-	margin: 0 3em;
-	text-align: center;
+	margin: 0 auto;
+	max-width: 70%;
 }
 
 .circles {
@@ -225,7 +225,7 @@ figcaption {
 
 .portfolio {
 	max-width: 80%;
-	margin: 0;
+	margin: 0 auto;
 }
 
 
