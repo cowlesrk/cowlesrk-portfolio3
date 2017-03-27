@@ -15,7 +15,7 @@ body {
 }
 
 p {
-	font-size: .95em;
+	font-size: 1em;
 	margin-bottom: 1.5em;
 	margin-top: .5em;
 }
@@ -55,7 +55,7 @@ button {
 /* ---- Navigation ---- */
 
 .name {
-	margin: 0;
+	margin: 0 ;
 	padding: 15px 0 0 0;
 	font-size: 1.5em;
 }
@@ -219,9 +219,13 @@ figure {
 	overflow: auto;
 }
 
+figcaption {
+	font-size: 1em;
+}
+
 .portfolio {
 	max-width: 80%;
-	margin: 0 auto;
+	margin: 0;
 }
 
 
