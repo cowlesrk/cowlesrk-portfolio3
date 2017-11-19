@@ -17,7 +17,7 @@ body {
 p {
 	font-size: 1em;
 	margin-bottom: 1.5em;
-	margin-top: .5em;
+	margin-top: 1.5em;
 }
 
 a { 
@@ -44,6 +44,7 @@ button {
 	border: none;
 	margin: 0;
 	padding: 1em;
+	font-size: 1em;
 }
 
 
@@ -158,7 +159,7 @@ button {
 	    flex-wrap: wrap;
 	    justify-content: center;
 	    align-items: center;
-	    padding: 3em 5em;
+	    padding: 3em 3em;
 		background-color: #cbcbcb;
 		border-top: 5px solid #EAFFD0;
 		border-bottom: 5px solid #EAFFD0;
@@ -171,7 +172,7 @@ button {
 
 .about-h2, .about-h3 {
 	color: white;
-	padding: .1em;
+	padding: 0em;
 	text-align: left;
 }
 
@@ -179,7 +180,7 @@ button {
 
 .profile {
 	border-radius: 50%;
-	max-width: 70%;
+	max-width: 75%;
 }
 
 /* ---- Skills ---- */
@@ -195,7 +196,7 @@ button {
 }
 
 .skills p {
-	margin: 0 3em;
+	margin: 0;
 	text-align: center;
 }
 
@@ -217,10 +218,13 @@ figure img {
 
 figure {
 	overflow: auto;
+	width: 100%;
+	padding-bottom: 3%;
 }
 
 figcaption {
 	font-size: 1em;
+
 }
 
 .portfolio {
@@ -230,6 +234,7 @@ figcaption {
 
 
 .portfolio-title {
+	padding-left: 25%;
 	margin: 2em 0;
 	color: #95E1D3;
 }
@@ -238,6 +243,40 @@ figcaption {
 	text-align: left;
 	padding: .5em 0;
 }
+
+
+/* ---- Case Studies ---- */
+
+.case-studies {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+
+.case-title {
+	text-align: center;
+	padding-top: 5%;
+	margin: 0 auto;
+	color: #95E1D3;
+}
+
+.case-skills {
+	color: #95E1D3;
+	text-align: center;
+}
+
+.case-headings {
+	color: #95E1D3;
+	text-align: left;
+}
+
+.case-img {
+	width: 70%;
+ 	display: block;
+    margin: 0 auto;
+    padding: 3%;
+}
+
 
 /* ---- Footer ---- */
 
@@ -295,7 +334,7 @@ figcaption {
 	/* ---- Columns ---- */
 
 	.col {
-		width: 30%;
+		width: 40%;
 		display: inline-block;
 		float: left;
 		vertical-align: top;
@@ -306,6 +345,7 @@ figcaption {
 
 	.col2 {
 		margin-left: 10em;
+
 		
 	}
 
